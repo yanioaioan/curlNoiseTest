@@ -52,7 +52,7 @@ void computeCurl(float	x,	float	y, float &curla, float &curlb)
 
 
 
-
+//https://github.com/cabbibo/glsl-curl-noise/blob/master/curl.glsl
 ngl::Vec3 snoiseVec3( ngl::Vec3 x ){
 
   float s  = pn.noise(x.m_x, x.m_y, x.m_z );
